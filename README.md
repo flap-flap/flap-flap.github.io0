@@ -8,10 +8,17 @@
  <title>(васильев данил) Flappy bird</title>
 </head>
 <body>
-
+<button>
+	↑
+</button>
  <canvas id="canvas" width="288" height="512"></canvas>
 
  <script>
+ 	let button = document.querySelector('button'); // хнопка
+    button.onclick = function(){
+         document.addEventListener("keydown", moveUp);
+    }
+
  	var cvs = document.getElementById("canvas");
 var ctx = cvs.getContext("2d");
 
