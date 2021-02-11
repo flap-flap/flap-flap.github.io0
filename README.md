@@ -1,11 +1,11 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <link rel="icon" href="favicon.png" type="icon-x">
- <title>(васильев данил)</title>
+ <title>(васильев данил) Flappy bird</title>
 </head>
 <body>
 <button>
@@ -15,11 +15,11 @@
 
  <script>
  	let button = document.querySelector('button'); // хнопка
-    button.onclick = function moveUp() {
-     yPos -= 25;
-     fly.play();
+    button.onclick = function(){
+         function moveUp() {
+ yPos -= 25;
+ fly.play();
 }
-         document.addEventListener(moveUp);
     }
 
  	var cvs = document.getElementById("canvas");
