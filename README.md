@@ -9,7 +9,11 @@
 </head>
 <body>
 	<div id="MoveUp">
-		<script>document.addEventListener("keydown", moveUp);</script>
+		<script>function () {
+               yPos -= 25;
+               fly.play();
+		}
+	</script>
 	</div>
 <button>
 	↑
@@ -17,8 +21,10 @@
  <canvas id="canvas" width="288" height="512"></canvas>
 
  <script>
- function Clickfunction () {
- 	document.getElementById("MoveUp").InnerHtml
+ function ClickFunction () {
+ 	function () {
+    yPos -= 25;
+    fly.play();
  }
 var cvs = document.getElementById("canvas");
 var ctx = cvs.getContext("2d");
