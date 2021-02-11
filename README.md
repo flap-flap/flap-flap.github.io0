@@ -16,9 +16,8 @@
  <script>
  	let button = document.querySelector('button'); // хнопка
     button.onclick = function(){
-         function moveUp() {
- yPos -= 25;
- fly.play();
+    yPos -= 25;
+    fly.play();
 }
     }
 
