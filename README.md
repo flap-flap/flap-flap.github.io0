@@ -16,7 +16,7 @@
  <script>
  	let button = document.querySelector('button'); // хнопка
     button.onclick = function(){
-         document.addEventListener("keydown", moveUp);
+         document.addEventListener('button' moveUp);
     }
 
  	var cvs = document.getElementById("canvas");
