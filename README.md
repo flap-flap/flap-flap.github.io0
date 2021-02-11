@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
  <meta charset="UTF-8">
@@ -8,20 +8,19 @@
  <title>(васильев данил) Flappy bird</title>
 </head>
 <body>
+	<div id="MoveUp">
+		<script>document.addEventListener("keydown", moveUp);</script>
+	</div>
 <button>
 	↑
 </button>
  <canvas id="canvas" width="288" height="512"></canvas>
 
  <script>
- 	let button = document.querySelector('button'); // хнопка
-    button.onclick = function(){
-    yPos -= 25;
-    fly.play();
-}
-    }
-
- 	var cvs = document.getElementById("canvas");
+ function Clickfunction () {
+ 	document.getElementById("MoveUp").InnerHtml
+ }
+var cvs = document.getElementById("canvas");
 var ctx = cvs.getContext("2d");
 
 var bird = new Image();
